@@ -31,6 +31,24 @@ body {
   color: lightblue;
 }
 
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  padding: 15px;
+  background: lightblue;
+  font-family: inherit;
+  font-size: 16px;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
 .form-control {
   position: relative;
   margin: 20px 0 40px;
